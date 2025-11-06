@@ -48,7 +48,7 @@ function App() {
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#como-funciona" className="text-sm font-medium hover:text-primary transition-colors">Como Funciona</a>
             <a href="#para-quem" className="text-sm font-medium hover:text-primary transition-colors">Para Quem</a>
-            <a href="#cases" className="text-sm font-medium hover:text-primary transition-colors">Cases</a>
+            <a href="#impacto" className="text-sm font-medium hover:text-primary transition-colors">Impacto</a>
             <a href="#servicos" className="text-sm font-medium hover:text-primary transition-colors">Serviços</a>
             <a href="#faq" className="text-sm font-medium hover:text-primary transition-colors">FAQ</a>
           </nav>
@@ -75,7 +75,7 @@ function App() {
                 </h1>
                 
                 <p className="text-xl text-gray-300 leading-relaxed">
-                  Automações com IA que geram ROI real para empresas que querem sair da mesmice. 
+                  Automações com IA que geram ROI para empresas que querem sair da mesmice. 
                   Descomplicamos, economizamos tempo e impulsionamos o crescimento, entregando resultados palpáveis.
                 </p>
               </div>
@@ -85,15 +85,6 @@ function App() {
                   Quero uma Análise Gratuita dos Meus Processos
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
-              </div>
-              
-              <div className="flex items-center space-x-4 text-sm text-gray-400">
-                <div className="flex -space-x-2">
-                  <div className="w-8 h-8 bg-accent rounded-full border-2 border-white"></div>
-                  <div className="w-8 h-8 bg-accent rounded-full border-2 border-white"></div>
-                  <div className="w-8 h-8 bg-accent rounded-full border-2 border-white"></div>
-                </div>
-                <span>Empresas em tempo recorde já implementam automações inteligentes</span>
               </div>
             </div>
             
@@ -182,7 +173,7 @@ function App() {
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl font-bold">A Solução Perfeita Para Você</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Automações inteligentes para empresas que querem eficiência real e resultados mensuráveis
+              Automações inteligentes para empresas que querem eficiência e resultados mensuráveis
             </p>
           </div>
           
@@ -261,7 +252,7 @@ function App() {
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl md:text-4xl font-bold">Por Que Escolher Pedro Borba?</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Diferenciais que fazem a diferença real no seu negócio
+              Diferenciais reais no seu negócio
             </p>
           </div>
           
@@ -325,13 +316,13 @@ function App() {
         </div>
       </section>
 
-      {/* Cases de Sucesso */}
-      <section id="cases" className="section-padding">
+      {/* Impactos que já foram produzidos */}
+      <section id="impacto" className="section-padding">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold">Cases de Impacto</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Impactos que já foram produzidos</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Resultados reais que transformaram negócios e geraram ROI
+              Resultados reais que transformaram negócios
             </p>
           </div>
           
@@ -343,7 +334,7 @@ function App() {
               <CardContent className="text-center space-y-4">
                 <div className="text-4xl font-bold text-accent">80%</div>
                 <p className="text-muted-foreground">
-                  Automação de processos de conciliação bancária reduziu de 8 horas 
+                  Implementei a automação de processos de conciliação bancária reduziu de 8 horas 
                   para 1h30min diárias, liberando equipe para atividades estratégicas.
                 </p>
                 <Badge variant="secondary">ROI: 300% em 6 meses</Badge>
@@ -357,7 +348,7 @@ function App() {
               <CardContent className="text-center space-y-4">
                 <div className="text-4xl font-bold text-accent">100%</div>
                 <p className="text-muted-foreground">
-                  Sistema de gestão de estoque automatizado eliminou completamente 
+                  Implementei sistema de gestão de estoque automatizado eliminou completamente 
                   erros de inventário e reduziu perdas em 95%.
                 </p>
                 <Badge variant="secondary">Economia: R$ 50k/mês</Badge>
@@ -371,7 +362,7 @@ function App() {
               <CardContent className="text-center space-y-4">
                 <div className="text-4xl font-bold text-accent">250%</div>
                 <p className="text-muted-foreground">
-                  Automação de pipeline de vendas e atendimento aumentou conversão 
+                  Implementei uma automação de pipeline de vendas e atendimento aumentou conversão 
                   e permitiu escalar sem aumentar equipe.
                 </p>
                 <Badge variant="secondary">Crescimento: 3x receita</Badge>
@@ -581,8 +572,8 @@ function App() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Depende da complexidade, mas a maioria dos projetos fica pronta entre 2-6 semanas. 
-                  Começamos sempre com uma análise gratuita para dar um cronograma preciso 
+                  Depende da complexidade, mas a maioria dos projetos fica pronta entre 1-4 semanas. 
+                  Começamos sempre com uma análise para dar um cronograma preciso 
                   baseado nas suas necessidades específicas.
                 </p>
               </CardContent>
@@ -721,7 +712,7 @@ function App() {
               <div className="space-y-2">
                 <a href="#como-funciona" className="block text-primary-foreground/80 hover:text-accent transition-colors">Como Funciona</a>
                 <a href="#para-quem" className="block text-primary-foreground/80 hover:text-accent transition-colors">Para Quem</a>
-                <a href="#cases" className="block text-primary-foreground/80 hover:text-accent transition-colors">Cases</a>
+                <a href="#impacto" className="block text-primary-foreground/80 hover:text-accent transition-colors">Impacto</a>
                 <a href="#servicos" className="block text-primary-foreground/80 hover:text-accent transition-colors">Serviços</a>
                 <a href="#faq" className="block text-primary-foreground/80 hover:text-accent transition-colors">FAQ</a>
               </div>
