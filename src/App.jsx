@@ -74,7 +74,7 @@ function App() {
                   <span className="gold-accent">Inteligência Estratégica</span>
                 </h1>
                 
-                <p className="text-xl text-gray-300 leading-relaxed">
+                <p className="text-x2 text-gray-300 leading-relaxed">
                   Automações com IA que geram ROI para empresas que querem sair da mesmice. 
                   Descomplicamos, economizamos tempo e impulsionamos o crescimento, entregando resultados palpáveis.
                 </p>
